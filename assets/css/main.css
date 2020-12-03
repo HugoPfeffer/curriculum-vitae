@@ -2734,13 +2734,30 @@ input, select, textarea {
 		.skyhub img {
 			width: 30vh;
 		}
-		.clientes-item, h3
-		.clientes-item, img
+		.clientes-img {
+			display: flex;
+			justify-content: center;
+			align-self: center;
+			height: 5vw;
+		}
+		.clientes-img img {
+			object-fit: cover
+		}
+		.clientes-item h3 {
+			text-align: center;
+			font-size: 15px;
+		}
+		.clientes-item h3,
+		.clientes-item img,
 		.clientes-item {
 			display: flex;
 			justify-content: center;
 			align-self: center;
 			flex-direction: column;
+		}
+		#clientes p {
+			margin-bottom: 100px;
+			margin-top: -40px;
 		}
 
 
@@ -3139,6 +3156,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+		.clientes-img {
+			height: 15vw;
+		}
 		/* Basic */
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3299,6 +3319,9 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		.clientes-img {
+			height: 20vw;
+		}
 		/* Header */
 
 			#header {
