@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg9.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg5.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2662,10 +2662,25 @@ input, select, textarea {
 			justify-content: center;
 			align-self: flex-start;
 		}
+		.exp-content {
+			flex-direction: column;
+			display: flex;
+			align-self: flex-start;
+		}
+		.exp-content span{
+		}
+		.exp-img img {
+			width: 65px;
+		}
+		.exp-img {
+			width: 65px;
+			display: flex;
+			justify-content: center;
+			align-self: flex-start;
+		}
 		.skills-img {
-			height: 50px;
+			height: 60px;
 			margin: 5px;
-			padding: 5px;
 		}
 		.skills h3 {
 			height: 60px;
@@ -2697,63 +2712,36 @@ input, select, textarea {
 			font-size: 16px;
 			color: rgb(162, 162, 162);
 		}
-		.educ-row-spacing {
+		.exp-row-spacing {
 			padding: 0px 0px 50px 0px;
 		}
-		.skills h3 {}
-
-
-
-
-
-
-
-
-
-
-
-		.swiper-container {
-      width: 100%;
-      height: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		.skills {
+			padding: 30px 0px 30px 0px;
+		}
+		.exp-content span.desc ul {
+			margin: 0;
+			padding: 0;
+		}
+		.clientes-img img {
+			width: 20vh;
+		}
+		.ubec img {
+			width: 15vh;
+		}
+		.interforencis img {
+			width: 30vh;
+		}
+		.skyhub img {
+			width: 30vh;
+		}
+		.clientes-item, h3
+		.clientes-item, img
+		.clientes-item {
+			display: flex;
+			justify-content: center;
+			align-self: center;
+			flex-direction: column;
+		}
 
 
 /* Footer */
