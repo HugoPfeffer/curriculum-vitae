@@ -2759,7 +2759,10 @@ input, select, textarea {
 			margin-bottom: 100px;
 			margin-top: -40px;
 		}
-
+		#header::after {
+			border-right: solid 1px black;
+			transform: translateX(-10%);
+		}
 
 /* Footer */
 
