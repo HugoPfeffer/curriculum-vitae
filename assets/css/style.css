@@ -240,6 +240,7 @@ header.major h2 {
   margin: 0px;
 }
 .particles {
+  width: auto;
   height: 100%;
   background-color: rgb(41, 41, 41) ;
   padding: 0;
@@ -249,7 +250,25 @@ header.major h2 {
   top: 50%;
   left: 50%;
 }
-
+.skills-items img{
+  width: auto;
+  height: 50px;
+  padding: 0px 0px 0px 0px;
+}
+.clientes-wrapper a:hover,
+.clientes-wrapper a,
+.clientes-wrapper a:link {
+  text-decoration: none;
+  border: none;
+}
+.clientes-wrapper img{
+  width: 100px;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+}
+.skills-items h3{
+  height: 60px;
+}
 .square { 
   display: none;
   height: 50px;
@@ -357,6 +376,7 @@ header.major h2 {
     }
     .particles {
       height: 50%;
+      width: auto;
     }
 
       #header h1 {
