@@ -316,6 +316,16 @@ header.major h2 {
   top: 0px;
   left: -100px;
 }
+.indice::after {
+  content: '';
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: -130px;
+}
 /* XLarge */
 
 @media screen and (max-width: 1800px) {
