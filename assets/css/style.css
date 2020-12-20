@@ -171,6 +171,7 @@ pre {
   border-top: solid 2px #efefef;
   margin: 4em 0 0 0;
   padding: 4em 0 0 0;
+  position: relative;
 }
 #main {
   margin-left: 35%;
@@ -242,9 +243,10 @@ header.major h2 {
 .particles {
   width: auto;
   height: 100%;
-  background-color: rgb(41, 41, 41) ;
+  background-color: #171f2b;
   padding: 0;
 }
+
 .center {
   position: absolute;
   top: 50%;
@@ -265,6 +267,10 @@ header.major h2 {
 .nome {
   font-size: 25px;
   font-weight: 900;
+  color: #e6e6e6;
+}
+.cargo {
+  color: #e6e6e6;
 }
 .header-ft {
 }
@@ -301,31 +307,15 @@ header.major h2 {
 .skills-items h3{
   height: 60px;
 }
-.square { 
-  display: none;
-  height: 50px;
-  width: 50px;
-  background-color: rgb(236, 71, 71);
-}
-
-.time-line-wrapper{
-  display: none;
+.indice::before {
+  content: '';
   position: absolute;
-  top: 0%;
-  left: 20%;
+  background-color: #171f2b;
+  width: 3px;
+  height: 150%;
+  top: 0px;
+  left: -100px;
 }
-.bolotas { 
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border-radius: 50%;
-}
-.time-line {
-  height: 1000px;
-  width: 100px;
-  border-left: solid 5px white;
-}
-
 /* XLarge */
 
 @media screen and (max-width: 1800px) {
