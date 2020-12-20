@@ -213,7 +213,7 @@ header.major h2 {
   position: fixed;
   text-align: right;
   top: 0;
-  width: 35%;
+  width: 25%;
   padding: 0;
 }
 
@@ -255,15 +255,47 @@ header.major h2 {
   height: 50px;
   padding: 0px 0px 0px 0px;
 }
+.header-container {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  text-align: center;
+  margin-top: 8em;
+}
+.nome {
+  font-size: 25px;
+  font-weight: 900;
+}
+.header-ft {
+}
+.header-ft img{
+  border-radius: 50%;
+  width: 10vw;
+}
 .clientes-wrapper a:hover,
 .clientes-wrapper a,
 .clientes-wrapper a:link {
   text-decoration: none;
   border: none;
 }
-.clientes-wrapper img{
-  width: 100px;
+.header-redes{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.rede {
+  padding: 5px
+}
+.rede img{
   height: auto;
+  width: 30px;
+  fill: white;
+}
+.clientes-wrapper img{
+  width: 10vw;
+  max-width: 120px;
+  max-height: 120px;
   padding: 0px 0px 0px 0px;
 }
 .skills-items h3{
@@ -312,7 +344,7 @@ header.major h2 {
   /* Header */
 
     #header {
-      width: 30%;
+      width: 25%;
     }
 
       #header h1 {
